@@ -118,4 +118,5 @@
   // Other
   "security.workspace.trust.untrustedFiles": "open",
   "editor.gotoLocation.multipleDefinitions": "goto",
+  "files.trimTrailingWhitespace": true
 }
