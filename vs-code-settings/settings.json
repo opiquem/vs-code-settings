@@ -1,0 +1,121 @@
+{
+  // Workbench settings
+  "workbench.iconTheme": "icons",
+  "workbench.colorTheme": "Bearded Theme Monokai Metallian",
+  
+  // Terminal settings
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  
+  // Files settings
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  //Editor settings
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.fontLigatures": false,
+  "editor.cursorBlinking": "expand",
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.linkedEditing": true,
+
+  // Auto closing tags
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+
+  // Window settings
+  "window.titleBarStyle": "custom",
+
+  // Code Actions on Save Settings
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.sortImports": "always",
+  },
+
+  // Editor Formatting Settings
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "prettier.singleQuote": true,
+
+  // Live Server Settings
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.host": "localhost",
+  
+  // GitLens Settings
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  
+  // Markdown & SVG Preview Settings
+  "svg.preview.mode": "svg",
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+
+  // GitHub Copilot Settings
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+
+  //Explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // TS & JS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // "typescript.preferences.quoteStyle": "single",
+  // "javascript.preferences.quoteStyle": "single",
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+
+  //Spell checker
+	"cSpell.language": "en,ua",
+  "cSpell.userWords": [],
+  "cSpell.enabled": true,
+  "cSpell.enableFiletypes": [
+    "jsx",
+    "tsx",
+    "ts",
+    "js",
+    "scss",
+    "sass",
+    "vue",
+    "py"
+  ],
+  "cSpell.diagnosticLevel": "Hint",
+
+  // Other
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+}
