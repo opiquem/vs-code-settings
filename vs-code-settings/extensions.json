@@ -5,6 +5,7 @@
     "BayuSetiawan.kanao",
     "tal7aouy.icons",
     "file-icons.file-icons",
+    "Catppuccin.catppuccin-vsc-icons",
 
     // Git tools
     "GitHub.copilot",
@@ -14,10 +15,10 @@
 
     // Snippets
     "dsznajder.es7-react-js-snippets",
-    
+
     // Live share
     "ritwickdey.LiveServer",
-    
+
     // Code formatting
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
@@ -34,23 +35,24 @@
     "ecmel.vscode-html-css",
     "bradlc.vscode-tailwindcss",
     "styled-components.vscode-styled-components",
-    
+
     // JS, TS
     "christian-kohler.npm-intellisense",
     "meganrogge.template-string-converter",
     "YoavBls.pretty-ts-errors",
-    
+    "Prisma.prisma",
+
     // Markdown
     "jock.svg",
     "yzhang.markdown-all-in-one",
-    
+
     // Productivity
     "streetsidesoftware.code-spell-checker",
     "usernamehw.errorlens",
     "wayou.vscode-todo-highlight",
     "icrawl.discord-vscode",
     "naumovs.color-highlight",
-    
+
     // Python
     "ms-python.vscode-pylance",
     "ms-python.python",
