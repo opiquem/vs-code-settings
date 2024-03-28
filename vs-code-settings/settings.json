@@ -66,6 +66,9 @@
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "prettier.singleQuote": true,
 
   // Live Server Settings
